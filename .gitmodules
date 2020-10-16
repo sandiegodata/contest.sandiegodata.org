@@ -1,0 +1,21 @@
+[submodule "php-apache/DocumentRoot/qa-plugin/q2a-markdown-editor"]
+	path = php-apache/DocumentRoot/qa-plugin/q2a-markdown-editor
+	url = https://github.com/svivian/q2a-markdown-editor.git
+[submodule "php-apache/DocumentRoot/qa-plugin/q2a-post-merge"]
+	path = php-apache/DocumentRoot/qa-plugin/q2a-post-merge
+	url = git://github.com/NoahY/q2a-post-merge.git
+[submodule "php-apache/DocumentRoot/qa-plugin/q2a-backup"]
+	path = php-apache/DocumentRoot/qa-plugin/q2a-backup
+	url = https://github.com/ChrisNeedSpace/q2a-backup.git
+[submodule "php-apache/DocumentRoot/qa-plugin/q2apro-popular-questions-widget"]
+	path = php-apache/DocumentRoot/qa-plugin/q2apro-popular-questions-widget
+	url = https://github.com/q2apro/q2apro-popular-questions-widget.git
+[submodule "php-apache/DocumentRoot/qa-plugin/q2a-featured"]
+	path = php-apache/DocumentRoot/qa-plugin/q2a-featured
+	url = https://github.com/NoahY/q2a-featured.git
+[submodule "php-apache/DocumentRoot/qa-plugin/q2apro-comment-to-answer"]
+	path = php-apache/DocumentRoot/qa-plugin/q2apro-comment-to-answer
+	url = https://github.com/q2apro/q2apro-comment-to-answer.git
+[submodule "php-apache/DocumentRoot/qa-plugin/q2apro-change-post-owner"]
+	path = php-apache/DocumentRoot/qa-plugin/q2apro-change-post-owner
+	url = https://github.com/q2apro/q2apro-change-post-owner.git
