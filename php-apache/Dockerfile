@@ -102,7 +102,7 @@ WORKDIR "/var/www/html"
 EXPOSE 80
 
 
-#COPY DocumentRoot/ /var/www/html/
+COPY DocumentRoot/ /var/www/html/
 
 #ADD uploads.ini /usr/local/etc/php/conf.d/uploads.ini
 #ADD htaccess /var/www/html/.htaccess
