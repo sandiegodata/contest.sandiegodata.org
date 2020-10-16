@@ -1,0 +1,39 @@
+version: '3.1'
+
+services:
+
+    php-apache:
+        build: ./php-apache
+        ports:
+            - 8000:80
+        volumes:
+            - ./php-apache/DocumentRoot:/var/www/html
+        depends_on:
+            - mariadb
+        links:
+            - 'mariadb'
+        env_file: 
+            - private-environment.txt
+            
+    mariadb:
+        image: mariadb:10.3
+        volumes:
+            - mariadb:/var/lib/mysql
+        environment:
+            TZ: "America/Los_Angeles"
+            MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+        env_file: 
+            - private-environment.txt
+        ports:
+            - 3306:3306
+
+volumes:
+    html: {}
+    mariadb: {}
+        
+#networks:
+#  default:
+#    external:
+#      name: webproxy
+
+
